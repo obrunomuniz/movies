@@ -17,7 +17,7 @@ final class DiscoverTableVC: BaseTableVC {
 
     private lazy var tableRefreshControl: UIRefreshControl = {
         let rc = UIRefreshControl()
-        rc.attributedTitle = NSAttributedString(string: "Pull to refresh")
+        rc.attributedTitle = NSAttributedString(string: "Puxe para atualizar")
         return rc
     }()
 
@@ -30,7 +30,7 @@ final class DiscoverTableVC: BaseTableVC {
     }
 
     override func setupViewAndConstraints() {
-        navigationItem.title = "The Movies"
+        navigationItem.title = "Filmes populares"
     }
 
     override func setupTableView() {

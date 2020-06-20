@@ -17,9 +17,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
-        UINavigationBar.appearance().tintColor = .black
+        UINavigationBar.appearance().tintColor = .white
         UIBarButtonItem.appearance().setBackButtonTitlePositionAdjustment(UIOffset(horizontal: -1000, vertical: 0), for: .default)
-        UITabBar.appearance().tintColor = .black
+        UITabBar.appearance().tintColor = .brown
 
         //Initital Window and root View Controller
         window = UIWindow(frame: UIScreen.main.bounds)

@@ -19,7 +19,7 @@ final class SearchTableVC: BaseTableVC {
     
     private lazy var emptyDataLabel: UILabel = {
         let label = UILabel(font: .systemFont(ofSize: 14), alignment: .center)
-        label.text = "Please type something and tap Search"
+        label.text = "Digite algo e toque em Pesquisar"
         return label
     }()
     
@@ -28,7 +28,7 @@ final class SearchTableVC: BaseTableVC {
     override func setupViewAndConstraints() {
         super.setupViewAndConstraints()
 
-        navigationItem.title = "Search"
+        navigationItem.title = "Buscar filme"
 
         if #available(iOS 11.0, *) {
             navigationItem.largeTitleDisplayMode = .always
