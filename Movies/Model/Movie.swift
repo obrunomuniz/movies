@@ -15,7 +15,7 @@ struct Movie: Equatable {
     let title: String?
     let overview: String?
     let posterPath: String?
-    let releaseDate: Date?
+    let releaseDate: Date? 
 }
 
 extension Movie: Decodable {

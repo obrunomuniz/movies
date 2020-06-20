@@ -17,7 +17,7 @@ struct Config {
 
     struct URL {
         static let base = "http://api.themoviedb.org/3"
-        static let basePoster = "http://image.tmdb.org/t/p"
+        static let basePoster = "http://image.tmdb.org/t/p?rw185/"
     }
     
     struct Keys {

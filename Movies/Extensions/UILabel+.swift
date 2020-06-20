@@ -11,13 +11,6 @@ import UIKit
 extension UILabel {
 
     /// Convenient factory method for UILabel declaration.
-    ///
-    /// - Parameters:
-    ///   - font: Font of the label.
-    ///   - color: Text color of the label.
-    ///   - backgroundColor: Background color of the label.
-    ///   - lines: Number of lines.
-    ///   - alignment: Text alignment.
     convenience init(font: UIFont,
                      color: UIColor = .black,
                      backgroundColor: UIColor = .clear,
