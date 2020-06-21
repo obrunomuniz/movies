@@ -62,7 +62,7 @@ final class MovieItemCell: UITableViewCell {
 
         movieOverviewLabel.setContentCompressionResistancePriority(UILayoutPriority(250), for: .vertical)
 
-        releaseDateView.mrk.leading(to: posterImageView, attribute: .trailing, relation: .equal, constant: 12)
+        releaseDateView.mrk.leading(to: posterImageView, attribute: .trailing, relation: .equal, constant: -18)
         releaseDateView.mrk.bottom(to: contentView, attribute: .bottom, relation: .equal, constant: -6)
     }
 
@@ -76,7 +76,7 @@ final class MovieItemCell: UITableViewCell {
             posterImageView.kf.indicatorType = .activity
             posterImageView.kf.setImage(
                 with: posterPath,
-                options: [.transition(.fade(0.2))]
+                options: [.transition(.fade(0.4))]
             ) { [weak self] _ in
                     self?.contentView.layoutIfNeeded()
             }

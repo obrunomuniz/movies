@@ -13,7 +13,8 @@ import MarkerKit
 final class MovieYearReleaseView: UIView {
 
     private let frameImageView = UIImageView(image: Image.by(assetId: .iconReleaseFrame))
-    private let yearLabel = UILabel(font: .systemFont(ofSize: 15, weight: .light), lines: 1, alignment: .center)
+//    private let yearLabel = UILabel(font: .systemFont(ofSize: 15, weight: .light), lines: 1, alignment: .center)
+    private let yearLabel = UILabel(font: .systemFont(ofSize: 15, weight: .light), backgroundColor: .white, alignment: .center)
 
     override var intrinsicContentSize: CGSize {
         return CGSize(width: 61, height: 21)

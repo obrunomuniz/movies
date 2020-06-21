@@ -18,8 +18,8 @@ enum ApplicationError: AppError {
 
     var description: String {
         switch self {
-        case .commonError            : return "Common error"
-        case .noResultsError         : return "No results"
+        case .commonError            : return "Ops, ocorreu um erro"
+        case .noResultsError         : return "Não encontramos nada :("
         case .apiError(let apiError) : return apiError.description
         }
     }

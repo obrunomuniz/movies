@@ -9,12 +9,12 @@
 import UIKit
 
 enum TabBarItem {
-    case discover, favorites, search
+    case discover, /* favorites,*/ search
 
     var title: String {
         switch self {
         case .discover  : return "Filmes populares"
-        case .favorites : return "Favoritos"
+//        case .favorites : return "Favoritos"
         case .search    : return "Buscar"
         }
     }
