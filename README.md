@@ -34,6 +34,18 @@
   
 ```
 
+## :rocket: New features:
+```shell
+  # Finallize movie detail
+  
+  # Add favorite movies integrated with nodejs 
+  - https://github.com/obrunomuniz/desafio-conceitos-nodejs
+  
+  # Adding likes to movies
+  - https://github.com/obrunomuniz/desafio-conceitos-nodejs
+ 
+```
+
 ## :rocket: Contributing
 - Fork this repository;
 - Create a branch for your features;
