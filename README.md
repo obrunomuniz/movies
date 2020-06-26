@@ -4,7 +4,12 @@
 </p>
 
 <h1 align=center>Popular Movies</h1>
-<p align="center">Application that displays popular movies using the API themoviedb.org.</p>
+<p align="center">Application that displays popular movies using the API <a href="https://www.themoviedb.org/"/>themoviedb.org</a>.</p>
+ 
+ <p align="center">
+ <img  height="780" width="400" s src="https://i.imgur.com/3rUmMvr.png"> 
+  <img  height="780" width="400" s src="https://i.imgur.com/Y5EvDk3.png"> 
+</p>
 
 ## :rocket: Tech:
 - Swift
@@ -27,6 +32,20 @@
   # Install dependencies
   - pod install
   
+```
+
+## :rocket: New features:
+```shell
+  # Finallize movie detail
+  
+  # Add favorite movies integrated with nodejs 
+  - https://github.com/obrunomuniz/desafio-conceitos-nodejs
+  
+  # Adding likes to movies
+  - https://github.com/obrunomuniz/desafio-conceitos-nodejs
+  
+  # Automated testing
+ 
 ```
 
 ## :rocket: Contributing
